@@ -1,0 +1,89 @@
+<!-- mobile-first approach to web design: design the mobile version of our site first -> desktop, tablets... Simple to complex instead of complex to simple-->
+<!DOCTYPE html>
+<html>
+  <head> 
+    <meta charset="utf-8">
+    <title> Anh loves pink </title>
+    <link rel="stylesheet" href="CSS/normalize.css">  <!-- normalize.css resets styling and eliminate inconsistency btw web browsers-->
+    <link rel="stylesheet" href="CSS/main.css">
+    
+  </head>
+  
+  <body>
+    <header>
+      <div>
+        <a href = "index.html" id="logo">
+          <h1> Anh Pham </h1>
+          <h2> Student, Programmer </h2>
+         
+        </a>
+      </div>
+      <nav>
+        <ul>
+          <li> <a href="index.html" class="selected"> Porfolio </a></li>    <!-- class is same as id. However, one page can have multiple  same name class, whereas each id must have unique name on each page-->
+          <li> <a href="about.html"> About </a></li>
+          <li> <a href="contact.html"> Contact </a></li>
+        </ul>
+      </nav>
+    </header>
+    <div id="wrapper">
+      <section>
+        <ul id="gallery">
+          <li>
+            <a href="Image/numbers-01.jpg">
+            <img src="../Image/numbers-01.jpg" alt="Error">    
+            <!-- alt display the error message-->
+            <p> Experimentation with color and texture </p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="../Image/numbers-02.jpg">
+              <img src="../Image/numbers-02.jpg" alt="Error">    
+            <!-- alt display the error message-->
+              <p> Playing with blending modes in Photoshop </p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="../Image/numbers-06.jpg">
+            <img src="../Image/numbers-06.jpg" alt="Error">    
+            <!-- alt display the error message-->
+            <p> Trying to create an 80's style of glows </p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="../Image/numbers-09.jpg">
+            <img src="../Image/numbers-09.jpg" alt="Error">    
+            <!-- alt display the error message-->
+            <p> Drips created using Photoshop brushes </p>
+            </a>
+          </li>
+          
+          <li>
+            <a href="../Image/numbers-12.jpg">
+            <img src="../Image/numbers-12.jpg" alt="Error">    
+            <!-- alt display the error message-->
+            <p> Creating shapes </p>
+            </a>
+          </li>
+         
+        </ul>
+      </section>
+      <footer>
+       
+        <a href="http://facebook.com/pii.ay.5"><img src="../Image/facebook-wrap.png" alt="Facebook logo" class="social-icon"></a>
+        <a href="https://www.linkedin.com/in/anh-pham-14720059"><img src="../Image/linkedin-wrap.png" alt="LinkedIn logo" class="social-icon"></a>
+        <a href="http://www.github.com/anh65498"><img src="../Image/github-wrap.png" alt="Github logo" class="social-icon"></a>
+        <a href="http://instagram.com/anh_w_pham"> <img src="../Image/instagram-wrap.png" alt= "Instagram logo" class="social-icon"></a>
+        <a href="index.html"> <h6> Back to homepage</h6></a>
+         <p> &copy; Nov 22 2016 Anh Pham</p>
+          <button> Click on me honey</button>  <!-- button of HTML-->
+      </footer>
+    </div>
+  </body>
+
+</html>
+
+<!-- Cmd ]  to indent multiple lines -->
